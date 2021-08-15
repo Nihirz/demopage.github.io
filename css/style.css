@@ -1,0 +1,248 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing: antialiased;
+    text-decoration: none;
+}
+header {
+    background: var(--dark);
+    background-image:url(../img/back.jpg);
+}
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+h1 .display-3{
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: #eee;
+    font-family: 'Ubuntu', sans-serif
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.our-services {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+}
+
+.our-services .icon {
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center
+}
+
+.our-services:hover h4,
+.our-services:hover p {
+    color: #fff
+}
+
+.speedup:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.settings:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+
+.privacy:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+}
+
+.backups:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
+}
+
+.ssl:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
+}
+
+.database:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    padding: 0;
+    margin: 0
+}
+
+.menu {
+    width: 44px;
+    position: relative;
+    top: -10px;
+    height: 3px;
+    background: #00000054;
+    box-shadow: 0px 11px #ff00006b, 1px 22px #66b78d
+}
+
+nav {
+    padding: 8px;
+    height: 44px;
+    color: #909090;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+h2 {
+    font-weight: lighter
+}
+
+header {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15)
+}
+
+.about {
+    text-align: center;
+    color: gray;
+    padding: 40px
+}
+
+.title {
+    font-size: 22px;
+    color: #2c2c2c
+}
+
+.desc {
+    color: #909090;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.45em;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    width: 70%;
+    margin: 0 auto
+}
+
+@media (max-width: 630px) {
+    .title {
+        font-size: 18px
+    }
+}
+
+.row {
+    width: 95%;
+    display: flex;
+    padding: 10px;
+    justify-content: center
+}
+
+@media (max-width: 494px) {
+    .row {
+        flex-direction: column
+    }
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px
+}
+
+.card_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 9px 30px -6px rgba(24, 206, 15, 0.3);
+    position: relative;
+    transition: transform .4s
+}
+
+.fas,
+.fab {
+    display: inline-block;
+    position: absolute;
+    color: #63b563;
+    transform: translate(-52%, 75%);
+    font-size: 40px
+}
+
+.card_title {
+    font-size: 20px;
+    margin: 12px;
+    font-weight: bold;
+    color: #000000a8;
+    transition: color .2s
+}
+
+.card:hover .card_title {
+    color: #4bd482
+}
+
+.card:hover .card_img {
+    transform: translate(0px, -10px)
+}
+
+.card_body {
+    color: #8c9490;
+    font-size: 16px;
+    padding: 0 5px;
+    line-height: 1.5;
+    word-spacing: 4px
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
